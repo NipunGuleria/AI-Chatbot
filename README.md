@@ -3,17 +3,17 @@ This project is a simple yet effective AI-powered chatbot built using PyTorch fo
 
 🚀 Features
 
-    Intent classification using a fully connected neural network
+Intent classification using a fully connected neural network
 
-    Tokenization and lemmatization for text preprocessing
+Tokenization and lemmatization for text preprocessing
 
-    Bag-of-Words model for input vectorization
+Bag-of-Words model for input vectorization
 
-    Easily extendable intent-action mappings
+Easily extendable intent-action mappings
 
-    Supports custom responses and callable Python functions
+Supports custom responses and callable Python functions
 
-    Model training, saving, and loading functionalities
+Model training, saving, and loading functionalities
 
 .
 ├── main.py               # Main script for training and running the chatbot
