@@ -15,14 +15,9 @@ Supports custom responses and callable Python functions
 
 Model training, saving, and loading functionalities
 
-.
-├── main.py               # Main script for training and running the chatbot
-├── intents.json          # Intents file with training data and responses
-├── chatbot_model.pth     # Saved PyTorch model (generated after training)
-├── dimension.json        # Stores input/output dimensions for model loading
-└── README.md             # Project documentation
 
-#Model Architecture
+Model Architecture
+
 Input Layer (Bag of Words vector)
     ↓
 Fully Connected Layer (128 units, ReLU)
@@ -35,6 +30,3 @@ Dropout (0.5)
     ↓
 Output Layer (Softmax over intents)
 
-
-Nipun Guleria
-Aspiring Machine Learning Engineer & Data Scientist
