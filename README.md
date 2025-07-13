@@ -19,14 +19,24 @@ Model training, saving, and loading functionalities
 Model Architecture
 
 Input Layer (Bag of Words vector)
+
     ↓
+    
 Fully Connected Layer (128 units, ReLU)
+
     ↓
+    
 Dropout (0.5)
+
     ↓
+    
 Fully Connected Layer (64 units, ReLU)
+
     ↓
+    
 Dropout (0.5)
+
     ↓
+    
 Output Layer (Softmax over intents)
 
